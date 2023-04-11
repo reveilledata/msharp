@@ -1,0 +1,34 @@
+CODE,TYPE,TIME
+0,V/STOL Vertical (Day),Day
+1,"Ship Arrest, RAST, V/STOL Ship Vertical (Day)",Day
+2,Ship Touch & Go (Day),Day
+3,Ship Bolster/RAST Free Deck (Day),Day
+4,Ship Helicopter/Clear Deck (Day),Day
+5,"FCLP, V/STOL FCLP Vertical (Day)",Day
+6,"Field Full Stop, V/STOL Conventional (Day)",Day
+7,"Field Arrest, V/STOL Variable Nozzle Slow (Day)",Day
+8,V/STOL Fixed Nozzle Slow (Day),Day
+9,V/STOL Field Vertical (Day),Day
+A,"Ship Arrest, RAST, V/STOL Ship Vertical (Night)",Night
+B,Ship Touch & Go (Night),Night
+C,Ship Bolster/RAST Free Deck (Night),Night
+D,Ship Helicopter/Clear Deck (Night),Night
+E,"FCLP, V/STOL FCLP Vertical (Night)",Night
+F,"Field Full Stop, V/STOL Conventional (Night)",Night
+G,"Field Arrest, V/STOL Variable Nozzle Slow (Night)",Night
+H,V/STOL Fixed Nozzle Slow (Night),Night
+I,Ship UAS (Night),Night
+J,V/STOL Field Vertical (Night),Night
+K,V/STOL Vertical Roll (Night),Night
+L,Unprepared Landing (Day),Day
+M,Unprepared Landing (Night),Night
+N,NVD Ship,Night
+P,NVD Field/Field T&G,Night
+Q,NVD FCLP,Night
+R,Reduced Visibility Landing (Day),Day
+S,Reduced Visibility Landing (Night),Night
+T,Field Touch & Go (Night),Night
+U,Field UAS (Night),Night
+W,Field Touch & Go (Day),Day
+Y,NFO (Day),Day
+Z,NFO (Night),Night
