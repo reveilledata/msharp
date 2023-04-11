@@ -2,6 +2,7 @@
 import streamlit as st
 # EDA Pkgs
 import pandas as pd
+import openpyxl
 from datetime import datetime, timedelta
 # Custom imports
 from msharp_pipeline import MsharpConversion
@@ -12,7 +13,7 @@ def main():
     st.title("ManyTime Logbooks")
 
     # """Semi Automated ML App with Streamlit """
-    data = st.file_uploader("Upload your MSHARP Data", type=["csv", "xlsx"])
+    data = st.file_uploader("Upload your MSHARP Data", type=["csv"])
     if data is not None:
         df = MsharpConversion(data)
         df = df[df['TMS'].notna()]
